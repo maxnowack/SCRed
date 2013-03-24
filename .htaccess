@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^listen\.([a-zA-Z0-9]+)$ download.php?type=$1
