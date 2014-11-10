@@ -1,29 +1,7 @@
 <?php
-#####################################################
-#													#
-#	Autor:		Max Nowack							#
-#	Website:	www.dasnov.de						#
-#	Produkt:	SCred								#
-#	Version:	1.0									#
-#													#
-#####################################################
-#													#
-#	Die Software ist Mindware						#
-#	Mindware ist eine Vertriebsform von Software,	#
-#	bei der sie zunächst kostenlos erworben wird	#
-#	und es dem Nutzer freigestellt ist, dem Autor	#
-#	des Programms den Betrag zu zahlen, der ihm		#
-#	angemessen erscheint. Es wird das 				#
-#	"Zahle-was-du-willst-Prinzip" angewendet.		#
-#	Ein entsprechender Button befindet sich auf		#
-#	meiner Homepage.								#
-#													#
-#####################################################
-
-
 	require_once("config.php");
 	require_once("functions.php");
-	
+
 	if(isMusicPlayer())
 	{
 		$stream = getFreeStream($streams);
@@ -55,4 +33,4 @@
 			include("download.php");
 		}
 	}
-u();?>
+?>

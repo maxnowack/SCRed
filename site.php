@@ -1,26 +1,4 @@
-<?php 
-#####################################################
-#													#
-#	Autor:		Max Nowack							#
-#	Website:	www.dasnov.de						#
-#	Produkt:	SCred								#
-#	Version:	1.0									#
-#													#
-#####################################################
-#													#
-#	Die Software ist Mindware						#
-#	Mindware ist eine Vertriebsform von Software,	#
-#	bei der sie zunächst kostenlos erworben wird	#
-#	und es dem Nutzer freigestellt ist, dem Autor	#
-#	des Programms den Betrag zu zahlen, der ihm		#
-#	angemessen erscheint. Es wird das 				#
-#	"Zahle-was-du-willst-Prinzip" angewendet.		#
-#	Ein entsprechender Button befindet sich auf		#
-#	meiner Homepage.								#
-#													#
-#####################################################
-
-
+<?php
 require_once("config.php");
 require_once("functions.php");
 
@@ -36,7 +14,7 @@ echo "<?xml version=\"1.0\" ?>\n";
 			font-family: Arial,Verdana;
 			font-size: 10pt;
 		}
-		
+
 		#id {
 			font-size: 8pt;
 		}
@@ -58,8 +36,7 @@ echo "<?xml version=\"1.0\" ?>\n";
 			</table>
 		</div>
 		<div align="center" id="copyright">
-		<!-- Ich wäre Ihnen sehr dankbar, wenn Sie diesen Hinweis nicht entfernen. -->
-		<p>&copy; <?php echo @date("Y"); ?> copyright by <a href="http://www.dasnov.de/">dasnov.de</a></p>
+		    <p>Submit issues on <a href="https://github.com/maxnowack/SCRed">Github</a></p>
 		</div>
 	</body>
 </html>
