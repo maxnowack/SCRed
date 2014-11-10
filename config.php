@@ -1,7 +1,5 @@
 <?php
 
-/********************** Grundeinstellungen **********************/
-
 define("RADIO_NAME",	"YourRadio.FM");	//Name of your radio station
 define("SHOW_SITE",		true);					//should the file "site.php" be included?
 
