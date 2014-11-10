@@ -9,6 +9,5 @@ This application balances the load of different SHOUTcast streams. It also block
 
 ## Installation
 1. Copy the files to your webserver.
-2. Ensure write-permission on the file  "i"
-3. Insert your settings in "config.php"
-4. That's it!
+2. Insert your settings in "config.php"
+3. That's it!
