@@ -98,19 +98,4 @@
 		$url = "http://".$_SERVER['SERVER_NAME'].$url;
 		return $url;
 	}
-
-	function getI()
-	{
-		$f = fopen("i","r");
-		$i = fgets($f);
-		fclose($f);
-		return $i;
-	}
-
-	function setI($i)
-	{
-		$f = fopen("i","w+");
-		fputs($f,$i);
-		fclose($f);
-	}
 ?>
